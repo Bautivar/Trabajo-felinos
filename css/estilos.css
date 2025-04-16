@@ -1,0 +1,88 @@
+@import url(variables.css);
+@import url(default.css);
+#nav{
+    background-color: var(--negro);
+    padding: 0;
+    a{
+        padding: 0 20px;
+        font-size: 2rem;
+        color: var(--crema);
+        &:hover{
+            color: var(--dorado);
+        }
+    }
+    ul.dropdown-menu{
+        background-color: var(--crema);
+        padding: 0;
+        a{
+            color: var(--negro);
+            &:hover{
+                border-radius: 4px;
+                background-color: var(--dorado);
+                color: var(--negro);
+            }
+        }
+    }
+}
+section#banner {
+    position: relative;
+    min-height: 80vh;
+    background: url("../img/banner.jpg") no-repeat center center / cover;
+    align-content: center;
+    overflow: hidden;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.65) 80%);
+      z-index: 1;
+    }
+    h1{
+        font-size: 4rem;
+        color: var(--dorado);
+    }
+    p{
+        font-weight: bold;
+        color: var(--crema);
+    }
+    h1,p{
+        background: radial-gradient(circle at center,rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0.5) 30%,rgba(0, 0, 0, 0.3) 60%,rgba(0, 0, 0, 0) 100%);
+    }
+}
+main#main{
+    section#bienvenida{
+        padding: 80px 0;
+        border-bottom: solid 1px var(--negro);
+        a{
+            padding: 20px 20px;
+            background-color: var(--dorado);
+            color: var(--negro);
+        }
+    }
+    section#animalesDestacados{
+        padding: 80px 0;
+        div{
+            align-content: center;
+        }
+        a{
+            color: var(--crema);
+        }
+        .puma{
+            background-color: var(--bosque);
+        }
+        .tigre{
+            background-color: var(--selva);
+        }
+        .leon{
+            background-color: var(--sabana);
+        }
+        h3{
+            padding-top: 15px;
+            margin:0;
+        }
+    }
+}
+  
+  
