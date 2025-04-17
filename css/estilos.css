@@ -1,32 +1,39 @@
 @import url(variables.css);
 @import url(default.css);
-#nav{
+header#header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
     background-color: var(--negro);
-    padding: 0;
-    a{
-        padding: 0 20px;
-        font-size: 2rem;
-        color: var(--crema);
-        &:hover{
-            color: var(--dorado);
+    #nav{
+        button{
+            background-color: var(--crema);
         }
-    }
-    ul.dropdown-menu{
-        background-color: var(--crema);
-        padding: 0;
         a{
-            color: var(--negro);
+            padding: 0 20px;
+            font-size: 2rem;
+            color: var(--crema);
             &:hover{
-                border-radius: 4px;
-                background-color: var(--dorado);
+                color: var(--dorado);
+            }
+        }
+        ul.dropdown-menu{
+            background-color: var(--crema);
+            padding: 0;
+            a{
                 color: var(--negro);
+                &:hover{
+                    border-radius: 4px;
+                    background-color: var(--dorado);
+                    color: var(--negro);
+                }
             }
         }
     }
 }
 section#banner {
     position: relative;
-    min-height: 80vh;
+    min-height: 90vh;
     background: url("../img/banner.jpg") no-repeat center center / cover;
     align-content: center;
     overflow: hidden;
@@ -53,7 +60,7 @@ section#banner {
 }
 main#main{
     section#bienvenida{
-        padding: 80px 0;
+        padding: 50px 0;
         border-bottom: solid 1px var(--negro);
         a{
             padding: 20px 20px;
@@ -62,7 +69,8 @@ main#main{
         }
     }
     section#animalesDestacados{
-        padding: 80px 0;
+        padding: 50px 0;
+        border-bottom: solid 1px var(--negro);
         div{
             align-content: center;
         }
@@ -81,6 +89,44 @@ main#main{
         h3{
             padding-top: 15px;
             margin:0;
+        }
+    }
+    section#sorteo{
+        padding: 50px 0;
+        h2{
+            text-align: center;
+        }
+        li{
+            margin: 20px 0;
+        }
+        h4{
+            color: var(--dorado);
+        }
+    }
+}
+footer#footer{
+    padding: 20px 0;
+    background-color: var(--negro);
+    div#social{
+        img{
+            max-width: 50px;
+            max-height: 50px;
+            color: red;
+            padding: 10px;
+            background-color: var(--crema);
+            border-radius: 10px;
+        }
+    }
+    h5{
+        margin: 20px 0;
+        color: var(--crema);
+        font-size: 1.4rem;
+    }
+    a{
+        color: var(--crema);
+        padding: 10px;
+        &:hover{
+            color: var(--dorado);
         }
     }
 }
