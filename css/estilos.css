@@ -37,17 +37,14 @@ section#banner {
     background: url("../img/banner.jpg") no-repeat center center / cover;
     align-content: center;
     overflow: hidden;
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-      background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.65) 80%);
-      z-index: 1;
+    a{
+        padding: 15px 20px;
+        background-color: var(--dorado);
+        color: var(--negro);
+        position: relative;
+        z-index: 2;
     }
     h1{
-        font-size: 4rem;
         color: var(--dorado);
     }
     p{
@@ -57,19 +54,31 @@ section#banner {
     h1,p{
         background: radial-gradient(circle at center,rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0.5) 30%,rgba(0, 0, 0, 0.3) 60%,rgba(0, 0, 0, 0) 100%);
     }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.65) 80%);
+      z-index: 1;
+    }
 }
 main#main{
-    section#bienvenida{
+    /* ESTILOS MAIN */
+    section{
         padding: 50px 0;
+    }
+    section#bienvenida{
+        scroll-margin-top: 115px;
         border-bottom: solid 1px var(--negro);
         a{
-            padding: 20px 20px;
+            padding: 20px;
             background-color: var(--dorado);
             color: var(--negro);
         }
     }
     section#animalesDestacados{
-        padding: 50px 0;
         border-bottom: solid 1px var(--negro);
         div{
             align-content: center;
@@ -91,8 +100,8 @@ main#main{
             margin:0;
         }
     }
+
     section#sorteo{
-        padding: 50px 0;
         h2{
             text-align: center;
         }
@@ -103,7 +112,68 @@ main#main{
             color: var(--dorado);
         }
     }
+
+    section#presentacion{
+        padding: 0;
+        h1,p{
+            color: var(--crema);
+        }   
+    }
+    section#caracteristicas{
+        background-color: var(--negro);
+        p{
+            color: var(--crema);
+        }
+    }
+    section#habitatAlimentacion{
+        h4{
+            margin: 20px 0;
+        }
+    }
 }
+body.leon{
+    h2{
+        color: var(--sabana);
+    }
+    strong{
+        color: var(--sabana);
+    }
+    section#presentacion{
+        background: url(../img/leon/leonPortada.jpg) no-repeat center center / cover;
+        .col{
+            background-color: var(--sabana);
+        }
+    }
+}
+body.puma{
+    h2{
+        color: var(--bosque);
+    }
+    strong{
+        color: var(--bosque);
+    }
+    section#presentacion{
+        background: url(../img/leon/leonPortada.jpg) no-repeat center center / cover;
+        .col{
+            background-color: var(--bosque);
+        }
+    }
+}
+body.tigre{
+    h2{
+        color: var(--selva);
+    }
+    strong{
+        color: var(--selva);
+    }
+    section#presentacion{
+        background: url(../img/leon/leonPortada.jpg) no-repeat center center / cover;
+        .col{
+            background-color: var(--selva);
+        }
+    }
+}
+    /* FIN ESTILOS MAIN */
 footer#footer{
     padding: 20px 0;
     background-color: var(--negro);
@@ -111,7 +181,6 @@ footer#footer{
         img{
             max-width: 50px;
             max-height: 50px;
-            color: red;
             padding: 10px;
             background-color: var(--crema);
             border-radius: 10px;
