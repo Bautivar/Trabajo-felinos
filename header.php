@@ -35,8 +35,6 @@
             </a>
             <ul class="dropdown-menu sabana">
               <li><a class="dropdown-item" href="leon.php">Leon</a></li>
-              <li><a class="dropdown-item" href="#">Leopardo</a></li>
-              <li><a class="dropdown-item" href="#">Guepardo</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -45,8 +43,6 @@
             </a>
             <ul class="dropdown-menu bosque">
               <li><a class="dropdown-item" href="puma.php">Puma</a></li>
-              <li><a class="dropdown-item" href="#">Lyinx</a></li>
-              <li><a class="dropdown-item" href="#">Ocelote</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -54,9 +50,7 @@
               Selvas
             </a>
             <ul class="dropdown-menu selva">
-              <li><a class="dropdown-item" href="#">Pantera Negra</a></li>
               <li><a class="dropdown-item" href="tigre.php">Tigre de Bengala</a></li>
-              <li><a class="dropdown-item" href="#">Jaguar</a></li>
             </ul>
           </li>
           <li class="nav-item">

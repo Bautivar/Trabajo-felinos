@@ -153,7 +153,7 @@ body.puma{
         color: var(--bosque);
     }
     section#presentacion{
-        background: url(../img/leon/leonPortada.jpg) no-repeat center center / cover;
+        background: url(../img/puma/pumaPortada.webp) no-repeat center center / cover;
         .col{
             background-color: var(--bosque);
         }
@@ -167,7 +167,7 @@ body.tigre{
         color: var(--selva);
     }
     section#presentacion{
-        background: url(../img/leon/leonPortada.jpg) no-repeat center center / cover;
+        background: url(../img/tigre/tigrePortada.jpg) no-repeat center center / cover;
         .col{
             background-color: var(--selva);
         }
