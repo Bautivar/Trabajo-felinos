@@ -1,3 +1,4 @@
+<?php include_once 'header.php' ?>
 <main id="main">
     <section id="carruselEquipo" class="container">
         <div class="row">
@@ -42,3 +43,4 @@
         </div>
     </section>
 </main>
+<?php include_once 'footer.php' ?>

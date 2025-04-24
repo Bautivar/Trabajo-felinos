@@ -37,19 +37,19 @@
       <div class="col-md-4 mb-4 text-center p-0  tigre">
         <a href="">
           <h3>Tigre</h3>
-          <img src="img/tigre.png" class="img-fluid" alt="">
+          <img src="img/inicio/tigre.png" class="img-fluid" alt="">
         </a>
       </div>
       <div class="col-md-4 mb-4 text-center p-0  leon">
         <a href="">
           <h3>Leon</h3>
-          <img src="img/leon.png" class="img-fluid" alt="">
+          <img src="img/inicio/leon.png" class="img-fluid" alt="">
         </a>
       </div>
       <div class="col-md-4 mb-4 text-center  p-0 puma">
         <a href="">
           <h3>Puma</h3>
-          <img src="img/puma.png" class="img-fluid" alt="">
+          <img src="img/inicio/puma.png" class="img-fluid" alt="">
         </a>
       </div>
     </div>
@@ -64,7 +64,7 @@
         <p>Puedes participar para ganarte un viaje con un acompañante a las increíbles sabanas de África, en donde te
           podrás quedar 2 semanas en un hotel 5 estrellas. Y además, contarás con una increíble expedición a las
           sabanas donde podrás encontrar a los felinos que aparecen en nuestro documental!!!</p>
-        <img src="img/sorteo.jpg" class="img-fluid" alt="">
+        <img src="img/inicio/sorteo.jpg" class="img-fluid" alt="">
       </div>
       <div class="col-md-6">
         <h3>Solo deberas cumplir estos sencillos pasos para participar</h3>

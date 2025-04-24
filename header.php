@@ -31,18 +31,18 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Sabana
-            </a>
-            <ul class="dropdown-menu sabana">
-              <li><a class="dropdown-item" href="leon.php">Leon</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Bosque
             </a>
             <ul class="dropdown-menu bosque">
               <li><a class="dropdown-item" href="puma.php">Puma</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sabana
+            </a>
+            <ul class="dropdown-menu sabana">
+              <li><a class="dropdown-item" href="leon.php">Leon</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -54,7 +54,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nuestro Equipo</a>
+            <a class="nav-link" href="equipo.php">Nuestro Equipo</a>
           </li>
         </ul>
       </div>
