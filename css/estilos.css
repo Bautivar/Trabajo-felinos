@@ -65,9 +65,14 @@ section#banner {
     }
 }
 main#main{
-    /* ESTILOS MAIN */
+    /* PAGINA INICIO */
     section{
         padding: 50px 0;
+        .row{
+            @media screen and (max-width:767px) {
+                margin: 0;
+            }
+        }
     }
     section#bienvenida{
         scroll-margin-top: 115px;
@@ -113,6 +118,9 @@ main#main{
         }
     }
 
+    /* FIN PAGINA INICIO */
+
+    /* PAGINA FELINOS */
     section#presentacion{
         padding: 0;
         h1,p{
@@ -130,6 +138,39 @@ main#main{
             margin: 20px 0;
         }
     }
+    /* FIN PAGINA ANIMALES */
+
+    /* PAGINA NUESTRO EQUIPO */
+    section#inicioNosotros{
+        border-bottom: solid 1px var(--negro);
+    }
+    section#nuestroEquipo{
+        text-align: center;
+        border-bottom: solid 1px var(--negro);
+        div.card{
+            padding: 20px;
+            margin: 20px;
+            align-items: center;
+            background-color: var(--negro);
+            border-radius: 10%;
+            h5{
+                color: var(--dorado);
+                margin: 20px 0;
+            }
+            h6{
+                color: var(--crema);
+            }
+            p{
+                color: var(--crema);
+            }
+            img{
+                max-width: 200px;
+                max-height: 200px;
+                border-radius: 50%;
+            }
+        }
+    }
+    /* IFN PAGINA NUESTRO EQUIPO */
 }
 body.leon{
     h2{
@@ -172,6 +213,7 @@ body.tigre{
             background-color: var(--selva);
         }
     }
+
 }
     /* FIN ESTILOS MAIN */
 footer#footer{

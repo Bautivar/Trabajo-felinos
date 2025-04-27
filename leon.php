@@ -17,7 +17,7 @@ include_once 'header.php'
             <div class="col-lg-5">
                 <img src="img/leon/descripcion.jpg" class="img-fluid" alt="Un Leon macho y hembra">
             </div>
-            <div class="col-lg-7 p-4 p-md-0">
+            <div class="col-lg-7 py-4 py-md-0">
                 <h2 class="text-center">Descripcion</h2>
                 <p>El león es uno de los animales más <strong>imponentes</strong> del planeta y el único gran felino que vive en grupos sociales, conocidos como <strong>manadas</strong>. Su <strong>melena</strong>, su <strong>rugido</strong> y su presencia lo han convertido en un símbolo universal de <strong>fuerza</strong> y <strong>liderazgo</strong>.
                 <br>Habita principalmente en las <strong>sabanas africanas</strong>, donde cumple un rol clave como <strong>depredador tope</strong>, manteniendo el equilibrio natural al controlar las poblaciones de herbívoros. Gracias al <strong>trabajo en equipo</strong>, las leonas realizan la mayor parte de la caza, mientras el macho protege el territorio.
@@ -56,7 +56,7 @@ include_once 'header.php'
         </div>
     
         <div class="row py-4 justify-content-around border-bottom  border-black">
-            <div class="col-12 px-4 p-md-0">
+            <div class="col-12">
                 <h3>Habitat</h3>
                 <p>Los leones habitan principalmente <strong>sabanas abiertas</strong>, <strong>pastizales</strong> y <strong>matorrales</strong> de <strong>África subsahariana</strong>, con una pequeña población en el <strong>bosque de Gir (India)</strong>. Prefieren territorios con <strong>agua disponible</strong> y <strong>abundancia de presas</strong>, como ñus y cebras. Su <strong>adaptabilidad</strong> les permite vivir en zonas semiáridas, pero evitan los <strong>desiertos</strong> y las <strong>selvas densas</strong>. La <strong>pérdida de hábitat</strong> por la expansión humana es su <strong>mayor amenaza</strong>.</p>
             </div>
@@ -70,7 +70,7 @@ include_once 'header.php'
 
         <div class="row py-4 justify-content-around">
 
-            <div class="col-12 px-4 p-md-0">
+            <div class="col-12">
                 <h3>Alimentacion</h3>
                 <p>Los leones son <strong>carnívoros estrictos</strong> y <strong>cazadores cooperativos</strong>. Su dieta se basa principalmente en <strong>grandes herbívoros</strong> como <strong>jabalíes, cebras, búfalos y antílopes</strong>, que abaten trabajando en equipo durante la noche o al amanecer. Las leonas ejecutan el <strong>90% de las cacerías</strong>, usando estrategias de <strong>emboscada</strong> en terrenos abiertos. Aunque pueden comer hasta <strong>30 kg de carne</strong> en una sola ingesta, su <strong>éxito de caza</strong> es bajo (<strong>30%</strong>), por lo que a menudo <strong>roban presas</strong> a hienas o guepardos. Los <strong>machos dominantes</strong> tienen prioridad para alimentarse, seguidos por las hembras y las crías.</p>
             </div>

@@ -24,9 +24,9 @@
       </div>
       <div class="col-md-3">
         <h5>Animales destacados</h5>
-        <a href="tigre.php">Tigre</a>
-        <a href="leon.php" class="mx-3">Leon</a>
         <a href="puma.php">Puma</a>
+        <a href="leon.php" class="mx-3">Leon</a>
+        <a href="tigre.php">Tigre</a>
       </div>
       <div class="col-md-3">
         <h5>Ver documental</h5>
